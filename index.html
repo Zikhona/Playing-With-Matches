@@ -3,22 +3,35 @@
 <head>
 	<title>pink box</title>
 
-	<style type="text/css">
+<style type="text/css">
+
 div {
 	height: 8em;
+	width: 8em;
 	background-color: pink;
 	border: 1px solid black;
 	/*font-size: 70px;*/
 }
 body {
 	color: white;
-	text-align: center;
 }
-	</style>
+
+</style>
 </head>
+
 <body>
-	
-	<div>7</div>
+<!-- 	<button onclick="getRandom()">can you guess</button> -->	
+<div id="demo"></div>
+
+ <script type="text/javascript">
+		// Returns a random number between 0 (inclusive) and 1 (exclusive)
+function getRandom(newRandom) {
+	// returns a random number from 1 to 9
+	var newRandom = Math.floor((Math.random() * 9) + 1);
+      return  document.getElementById("demo").innerHTML = newRandom;
+}
+getRandom();
+	</script>
 
 </body>
 </html>
