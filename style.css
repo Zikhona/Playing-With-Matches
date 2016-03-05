@@ -1,0 +1,10 @@
+div {
+	height: 8em;
+	width: 8em;
+	background-color: pink;
+	border: 1px solid black;
+	/*font-size: 70px;*/
+}
+body {
+	color: white;
+}
